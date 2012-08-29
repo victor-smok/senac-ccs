@@ -1,0 +1,318 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"par",
+				"participante"
+			],
+			[
+				"pa",
+				"participante"
+			],
+			[
+				"Co",
+				"Collections	class"
+			],
+			[
+				"remove",
+				"remove(Object)	boolean"
+			],
+			[
+				"ad",
+				"add(String)	boolean"
+			],
+			[
+				"re",
+				"remove(Object)	boolean"
+			],
+			[
+				"para",
+				"participante"
+			],
+			[
+				"parti",
+				"participante"
+			],
+			[
+				"prin",
+				"print(double)	void"
+			],
+			[
+				"p",
+				"probablePrime(int, Random)	BigInteger"
+			],
+			[
+				"Bi",
+				"BigInteger	class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Gradle spring-jsf-jpa-app",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Gr",
+				"Set Syntax: Groovy"
+			],
+			[
+				"Mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Java",
+				"Set Syntax: Java"
+			],
+			[
+				"CSS",
+				"Set Syntax: CSS"
+			],
+			[
+				"Up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Jo",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": true,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Anderson/Workspace/projects/senac/senac-ccs/amigo-secreto/src/main/java/br/com/senac/amigosecreto/JogoAmigoSecreto.java",
+		"/Users/Anderson/Workspace/projects/senac/senac-ccs/senac-ccs.sublime-project",
+		"/Users/Anderson/Workspace/projects/senac/senac-ccs/amigo-secreto/src/test/java/br/com/senac/amigosecreto/JogoAmigoSecretoTest.java",
+		"/Users/Anderson/Workspace/projects/senac/senac-ccs/amigo-secreto/src/main/java/br/com/senac/amigosecreto/Participante.java",
+		"/Users/Anderson/Workspace/projects/senac/senac-ccs/amigo-secreto/target/surefire-reports/br.com.senac.amigosecreto.JogoAmigoSecretoTest.txt",
+		"/Applications/Developer/ZeroTurnaround/JRebel/conf/jrebel.properties",
+		"/usr/local/Cellar/app-engine-java-sdk/1.7.1/libexec/demos/jdoexamples/src/com/google/appengine/demos/jdoexamples/FriendServlet.java",
+		"/Users/Anderson/Downloads/dictionary",
+		"/Users/Anderson/Downloads/org-lorenzos-zencoding-0.9.nbm",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/usr/local/Cellar/app-engine-java-sdk/1.7.1/libexec/demos/jdoexamples/src/com/google/appengine/demos/jdoexamples/AddressBookEntry.java",
+		"/usr/local/Cellar/app-engine-java-sdk/1.7.1/libexec/demos/jdoexamples/war/addressbook.jsp",
+		"/usr/local/Cellar/app-engine-java-sdk/1.6.6/libexec/demos/jdoexamples/war/WEB-INF/classes/META-INF/jdoconfig.xml",
+		"/usr/local/Cellar/app-engine-java-sdk/1.6.6/libexec/demos/jdoexamples/war/guestbook.jsp",
+		"/usr/local/Cellar/app-engine-java-sdk/1.6.6/libexec/demos/jdoexamples/war/index.jsp",
+		"/usr/local/Cellar/app-engine-java-sdk/1.6.6/libexec/demos/guestbook/build.xml",
+		"/usr/local/Cellar/app-engine-java-sdk/1.6.6/libexec/demos/guestbook/war/stylesheets/main.css",
+		"/usr/local/Cellar/app-engine-java-sdk/1.6.6/libexec/demos/guestbook/COPYING",
+		"/Users/Anderson/Workspace/projects/generals/avaz-dev-app/pom.xml",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/java_util_.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/JavaC.sublime-build",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/return.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/while.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/variable.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/throw.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/test.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/test-case.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/switch.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/protected.sublime-snippet",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/Java/print.sublime-snippet",
+		"/Users/Anderson/Workspace/projects/generals/wlst-scripts/src/Script1302664509037.py",
+		"/Users/Anderson/Workspace/projects/generals/spring-mvc-jpa/pom.xml",
+		"/Users/Anderson/Workspace/projects/generals/spring3-javaee6/src/main/resources/log4j.properties",
+		"/Users/Anderson/Workspace/projects/generals/spring3-javaee6/icon.ico",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/src/main/webapp/resources/css/screen.css",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/spring-jsf-jpa-app.sublime-project",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/src/test/java/com/avaz/senac/ccs/bean/TaskHomeTest.java",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/src/main/java/com/avaz/senac/ccs/bean/TaskHome.java",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/build.gradle",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/pom.xml",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/custom-project-name.sublime-workspace",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/custom-project-name.sublime-project",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/.gradle/1.1/taskArtifacts/cache.properties.lock",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-jpa-app/src/main/java/com/avaz/senac/ccs/model/Task.java",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-app/src/main/java/com/acme/controller/NoteController.java",
+		"/Users/Anderson/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-app/src/main/java/com/acme/model/Note.java",
+		"/Users/Anderson/Workspace/projects/generals/spring-jsf-app/pom.xml"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"participantes",
+			"List",
+			"participante",
+			"amigoSecreto",
+			"participante"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"participantes"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"jogoa",
+				"amigo-secreto/src/main/java/br/com/senac/amigosecreto/JogoAmigoSecreto.java"
+			],
+			[
+				".txt",
+				"amigo-secreto/target/surefire-reports/br.com.senac.amigosecreto.JogoAmigoSecretoTest.txt"
+			],
+			[
+				"jo.tx",
+				"amigo-secreto/target/surefire-reports/br.com.senac.amigosecreto.JogoAmigoSecretoTest.txt"
+			],
+			[
+				"jo.txt",
+				"amigo-secreto/target/surefire-reports/br.com.senac.amigosecreto.JogoAmigoSecretoTest.txt"
+			],
+			[
+				"jogo",
+				"amigo-secreto/src/test/java/br/com/senac/amigosecreto/JogoAmigoSecretoTest.java"
+			],
+			[
+				"addre",
+				"src/com/google/appengine/demos/jdoexamples/AddressBookEntry.java"
+			],
+			[
+				"note",
+				"src/test/java/com/avaz/senac/ccs/bean/TaskHomeTest.java"
+			],
+			[
+				"taskho",
+				"src/test/java/com/avaz/senac/ccs/bean/TaskHomeTest.java"
+			],
+			[
+				"task",
+				"src/main/java/com/avaz/senac/ccs/bean/TaskHome.java"
+			],
+			[
+				"taskh",
+				"src/main/java/com/avaz/senac/ccs/bean/TaskHome.java"
+			],
+			[
+				"tas",
+				"src/main/java/com/avaz/senac/ccs/model/Task.java"
+			],
+			[
+				"no",
+				"src/main/java/com/acme/controller/NoteController.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true
+}

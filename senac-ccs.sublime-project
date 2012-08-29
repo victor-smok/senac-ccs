@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "folder_exclude_patterns": [
+                "target"
+            ], 
+            "path": "/Users/Anderson/Workspace/projects/senac/senac-ccs", 
+            "name": "senac-ccs"
+        }
+    ], 
+    "settings": {
+        "sublimejava_classpath": [
+            "/Users/Anderson/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar", 
+            "/Users/Anderson/Workspace/projects/senac/senac-ccs/amigo-secreto/target/classes", 
+            "/Users/Anderson/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar", 
+            "/Users/Anderson/Workspace/projects/senac/senac-ccs/target/test-classes", 
+            "/Users/Anderson/Workspace/projects/senac/senac-ccs/amigo-secreto/target/test-classes", 
+            "/Users/Anderson/Workspace/projects/senac/senac-ccs/target/classes", 
+            "/Users/Anderson/.m2/repository/junit/junit/4.10/junit-4.10.jar"
+        ]
+    }
+}
