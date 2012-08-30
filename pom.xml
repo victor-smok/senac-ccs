@@ -6,7 +6,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>senac-ccs</name>
-    <url>http://http://www.sp.senac.br</url>
+    <url>http://www.sp.senac.br</url>
     <inceptionYear>2012</inceptionYear>
     
     <developers>

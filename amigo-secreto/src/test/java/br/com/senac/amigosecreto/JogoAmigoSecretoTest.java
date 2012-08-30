@@ -24,12 +24,12 @@ public class JogoAmigoSecretoTest  extends TestCase {
     public void testSeTodosParticipantesPossuemAmigoSecreto() {
         String[] participantes = new String[] { "Tony Stark", "Thor Odinson", "Clinton Barton", "Bruce Banner", "Steve Rogers", "Natalia Romanova", "Nicholas Fury",  "Loki" };
         JogoAmigoSecreto jogo = new JogoAmigoSecreto();
-        List<Participante> sorteio = jogo.sortear( participantes );
+        Sorteio sorteio = jogo.sortear( participantes );
         System.out.println( sorteio );
         assertNotNull( sorteio );
-        assertFalse( sorteio.isEmpty() );
-        assertThat( sorteio, allOf( is( notNullValue() ) ) );
-        for ( Participante participante : sorteio ) {
+        assertFalse( sorteio.getParticipantes().isEmpty() );
+        assertThat( sorteio.getParticipantes(), allOf( is( notNullValue() ) ) );
+        for ( Participante participante : sorteio.getParticipantes() ) {
             assertNotNull( participante.getAmigoSecreto() );
         }
     }
@@ -39,9 +39,9 @@ public class JogoAmigoSecretoTest  extends TestCase {
     public void testParticipanteNaoSeuProprioAmigoSecreto() {
         String[] participantes = new String[] { "Tony Stark", "Thor Odinson", "Clinton Barton", "Bruce Banner", "Steve Rogers", "Natalia Romanova", "Nicholas Fury",  "Loki" };
         JogoAmigoSecreto jogo = new JogoAmigoSecreto();
-        List<Participante> sorteio = jogo.sortear( participantes );
+        Sorteio sorteio = jogo.sortear( participantes );
         System.out.println( sorteio );
-        for (Participante participante : sorteio ) {
+        for (Participante participante : sorteio.getParticipantes() ) {
             assertFalse( participante.getAmigoSecreto().equals( participante ) );
         }
     }
