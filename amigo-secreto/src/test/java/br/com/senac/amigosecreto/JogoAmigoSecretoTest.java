@@ -29,7 +29,9 @@ public class JogoAmigoSecretoTest  extends TestCase {
         assertNotNull( sorteio );
         assertFalse( sorteio.isEmpty() );
         assertThat( sorteio, allOf( is( notNullValue() ) ) );
-        fail( "TBD" );
+        for ( Participante player : sorteio ) {
+            assertNotNull( player.getSecretFriend() );
+        }
     }
     /**
      * Testa se o amigo secreto de um participante nao e ele mesmo.
@@ -39,6 +41,8 @@ public class JogoAmigoSecretoTest  extends TestCase {
         JogoAmigoSecreto jogo = new JogoAmigoSecreto();
         List<Participante> sorteio = jogo.sortear( participantes );
         System.out.println( sorteio );
-        fail( "TBD" );
+        for(Participante participante : sorteio) {
+            assertFalse(participante.equals(participante.getSecretFriend()));
+        }
     }
 }
