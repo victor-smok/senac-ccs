@@ -19,7 +19,7 @@
             <span data-bind="text: question">Qual a capital da Rússia?</span>
             <ul data-bind="foreach: answers">
                 <li style="list-style: none;">
-                    <input type="radio" name="answer"/>
+                    <input type="radio" name="answer" data-bind="click: answer"/>
                     <span data-bind="text: $data">Moscou</span>
                 </li>
             </ul>
@@ -33,6 +33,18 @@
                 self.answers = ko.observableArray([]);
                 
                 self.play = function() {
+                    $.getJSON("/thinkfast", {action: "play", name: self.participant() }, function(data){
+                        self.question(data.description);
+                        self.answers.removeAll();
+                        $.map(data.answers, function(answer){
+                            self.answers.push(answer);
+                        });
+                    });
+                }
+                self.bind = function() {
+                
+                }
+                self.answer = function(answer) {
                     
                 }
             }
