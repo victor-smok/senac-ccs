@@ -6,21 +6,39 @@ import java.util.Arrays;
 import javax.servlet.*;
 import javax.servlet.annotation.*;
 import javax.servlet.http.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.context.request.async.DeferredResult;
 
-@WebServlet( urlPatterns = { "/thinkfast" },
-             asyncSupported = true, loadOnStartup = 1 )
-public class ThinkFastController extends HttpServlet {
+@Controller
+@RequestMapping( value= "/thinkfast/*", produces={"application/json"} )
+public class ThinkFastController {
     
     private ThinkFastGame game;
 
-    @Override
-    public void init( ServletConfig config ) throws ServletException {
-        super.init( config );
-        game = new ThinkFastGame();
-        game.init();
+    @RequestMapping(value="/play", method= RequestMethod.GET)
+    public @ResponseBody Result play(@RequestParam String name, HttpSession session)
+    {
+        String id = session.getId();
+        
+        DeferredResult<Result> deferredResult = new DeferredResult<Result>();
+        
+        Screen screen = new WebScreen( deferredResult );
+        
+        return game.play(id, name, screen);
     }
     
-    @Override
+    public void bind(HttpSession session)
+    {
+    }
+    
+    public void awnswer(@RequestParam String answer, HttpSession session)
+    {
+    }
+    
     protected void doGet( HttpServletRequest req,
                           HttpServletResponse resp )
             throws ServletException, IOException {

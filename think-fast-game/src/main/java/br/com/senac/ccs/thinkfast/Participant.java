@@ -10,7 +10,7 @@ public class Participant {
     private String id;
     private String name;
     private int score;
-    private AsyncContext asyncContext;
+    private Screen screen;
 
     public Participant() {
         this.score = 0;
@@ -22,9 +22,9 @@ public class Participant {
         this.name = name;
     }
 
-    public Participant( String id, String name, AsyncContext asyncContext ) {
+    public Participant( String id, String name, Screen screen ) {
         this( id, name );
-        this.asyncContext = asyncContext;
+        this.screen = screen;
     }
 
     public String getId() {
@@ -43,24 +43,16 @@ public class Participant {
         this.score++;
     }
 
-    public void setAsyncContext( AsyncContext asyncContext ) {
-        this.asyncContext = asyncContext;
+    public void setAsyncContext( Screen screen ) {
+        this.screen = screen;
     }
 
-    private static final ObjectMapper mapper =
-            new ObjectMapper();
-    public void notify( Result result ) throws IOException {
-        if ( asyncContext != null ) {
-            HttpServletResponse response = 
-                    (HttpServletResponse) 
-                    asyncContext.getResponse();
-            response.setContentType( "application/json" );
-            response.getWriter().
-                    write( 
-                    mapper.writeValueAsString( result ) );
-            response.flushBuffer();
-            asyncContext.complete();
-            asyncContext = null;
+
+    public void notify( Result result ) throws IOException 
+    {
+        if ( screen != null ) 
+        {
+            screen.show(result);
         }
     }
 }

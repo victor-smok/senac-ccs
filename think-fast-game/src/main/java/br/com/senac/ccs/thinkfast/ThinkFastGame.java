@@ -24,11 +24,12 @@ public class ThinkFastGame {
         this.lock = new ReentrantLock();
     }
 
-    public void play( String id, String name, AsyncContext asyncContext ) throws IOException {
+    public Result play( String id, String name, Screen screen ) throws IOException {
         lock.lock();
+        Result result = null;
         try {
             Participant participant = 
-                    new Participant( id, name, asyncContext );
+                    new Participant( id, name, screen );
             participants.put( id, participant );
             participant.notify( 
                     new Result( currentQuestion, "Welcome!") );
@@ -36,11 +37,13 @@ public class ThinkFastGame {
         finally {
             lock.unlock(); 
         }
+        
+        return result;
     }
 
-    public void bind( String id, AsyncContext asyncContext ) {
+    public void bind( String id, Screen screen ) {
         Participant participant = participants.get( id );
-        participant.setAsyncContext( asyncContext );
+        participant.setAsyncContext( screen );
     }
 
     public void answer( String id, String answer ) throws IOException {
